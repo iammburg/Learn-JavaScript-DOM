@@ -12,12 +12,12 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <div class="container">
-      <h1 class="heading">Hewan Apakah Aku?</h1>
-      <div class="question_container">
+      <h1 class="header_title">Hewan Apakah Aku?</h1>
+      <section class="question_container">
         <div class="image_container">
           <img
             class="question_image"
@@ -30,17 +30,23 @@
           <div class="button_box" id="coalaButton">Koala 🐨</div>
           <div class="button_box" id="catButton">Kucing 😼</div>
         </div>
-      </div>
-      <div class="answer_container">
-        <p class="answer_title">Hasilnya:</p>
-        <img src="assets/yahahaha.jpeg" alt="" class="answer_image" />
-        <img
-          src="assets/happy-happy-happy-happy.gif"
-          alt=""
-          class="answer_image" />
-      </div>
+      </section>
+      <p class="answer_title">Hasilnya:</p>
+      <section class="answer_container">
+        <div id="wrongAnswer" class="wrong-header"></div>
+        <div class="right-answer">
+          <h2 class="right-answer-header">BETULL!😼🥳</h2>
+          <div class="right-image-container">
+            <img src="assets/yahahaha.jpeg" alt="" class="answer_image" />
+            <img
+              src="assets/happy-happy-happy-happy.gif"
+              alt=""
+              class="answer_gif" />
+          </div>
+        </div>
+      </section>
     </div>
 
-    <script src="scripts.js"></script>
+    <script src="scripts/scripts.js"></script>
   </body>
 </html>

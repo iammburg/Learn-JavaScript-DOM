@@ -1,0 +1,135 @@
+body {
+  margin: 1em;
+  background-image: url('/assets/tic-tac-toe.svg');
+  background-color: rgb(255, 186, 186);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_title {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 32px;
+  color: white;
+  background-color: rgb(255, 186, 186);
+  border: solid;
+  border-color: rgb(255, 186, 186);
+  border-width: 6px;
+}
+
+.question_container {
+  width: 100%;
+}
+
+.image_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.question_image {
+  border: solid;
+  border-width: 6px;
+  border-radius: 15px;
+  border-color: cadetblue;
+  width: 200px;
+  height: 200px;
+}
+
+.button_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.button_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: lightblue;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.answer_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 30px; */
+}
+
+.answer_title {
+  font-size: 25px;
+  color: white;
+  background-color: rgb(255, 186, 186);
+  border: solid;
+  border-color: rgb(255, 186, 186);
+  border-width: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.answer_image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border: solid;
+  border-width: 6px;
+  border-radius: 15px;
+  border-color: cadetblue;
+}
+
+.answer_gif {
+  width: 200px;
+  height: 200px;
+  border: solid;
+  border-width: 6px;
+  border-radius: 15px;
+  border-color: cadetblue;
+}
+
+.wrong-header {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 21px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 186, 186);
+  border: solid;
+  border-color: rgb(255, 186, 186);
+  border-width: 6px;
+}
+
+.hidden {
+  display: none;
+}
+
+.right-answer-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 26px;
+  color: rgb(92, 192, 137);
+  background-color: rgb(255, 186, 186);
+  border: solid;
+  border-color: rgb(255, 186, 186);
+  border-width: 6px;
+}
+
+.right-image-container {
+  display: flex;
+  flex-direction: column;
+}
